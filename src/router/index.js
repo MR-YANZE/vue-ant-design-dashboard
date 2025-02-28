@@ -54,15 +54,6 @@ let routes = [
 		component: () => import('../views/Billing.vue'),
 	},
 	{
-		path: '/rtl',
-		name: 'RTL',
-		layout: "dashboard-rtl",
-		meta: {
-			layoutClass: 'dashboard-rtl',
-		},
-		component: () => import('../views/RTL.vue'),
-	},
-	{
 		path: '/profile',
 		name: '个人中心',
 		layout: "dashboard",

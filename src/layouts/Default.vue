@@ -9,7 +9,7 @@
 		<a-layout class="layout-default" id="layout-default" :class="[layoutClass]">
 
 			<!-- Layout Header ( Navbar ) -->
-			<DefaultHeader></DefaultHeader>
+			<!--<DefaultHeader></DefaultHeader>-->
 			<!-- / Layout Header ( Navbar ) -->
 
 
@@ -31,12 +31,12 @@
 
 <script>
 
-	import DefaultHeader from '../components/Headers/DefaultHeader' ;
+	// import DefaultHeader from '../components/Headers/DefaultHeader' ;
 	import DefaultFooter from '../components/Footers/DefaultFooter' ;
 
 	export default ({
 		components: {
-			DefaultHeader,
+			// DefaultHeader,
 			DefaultFooter,
 		},
 		data() {

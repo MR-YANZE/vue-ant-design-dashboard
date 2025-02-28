@@ -35,11 +35,6 @@
 				</a-layout-content>
 				<!-- / Page Content -->
 
-				<!-- Layout Footer -->
-				<DashboardFooter></DashboardFooter>
-				<!-- / Layout Footer -->
-
-				
 				<!-- Floating Action Button For Toggling Settings Drawer -->
     			<a-button class="fab" shape="circle" @click="showSettingsDrawer = true">
 					<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -77,14 +72,12 @@
 
 	import DashboardSidebar from '../components/Sidebars/DashboardSidebar' ;
 	import DashboardHeader from '../components/Headers/DashboardHeader' ;
-	import DashboardFooter from '../components/Footers/DashboardFooter' ;
 	import DashboardSettingsDrawer from '../components/Sidebars/DashboardSettingsDrawer' ;
 
 	export default ({
 		components: {
 			DashboardSidebar,
 			DashboardHeader,
-			DashboardFooter,
 			DashboardSettingsDrawer,
 		},
 		data() {
